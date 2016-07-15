@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FED0544C1D38B5A7005693B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FED0544B1D38B5A7005693B3 /* main.m */; };
+		FED0544F1D38B5A7005693B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FED0544E1D38B5A7005693B3 /* AppDelegate.m */; };
+		FED054521D38B5A7005693B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED054511D38B5A7005693B3 /* ViewController.m */; };
+		FED054551D38B5A7005693B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED054531D38B5A7005693B3 /* Main.storyboard */; };
+		FED054571D38B5A7005693B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED054561D38B5A7005693B3 /* Assets.xcassets */; };
+		FED0545A1D38B5A7005693B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED054581D38B5A7005693B3 /* LaunchScreen.storyboard */; };
+		FED054651D38B5A7005693B3 /* web______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FED054641D38B5A7005693B3 /* web______Tests.m */; };
+		FED054701D38B5A8005693B3 /* web______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FED0546F1D38B5A8005693B3 /* web______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FED054611D38B5A7005693B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED0543F1D38B5A7005693B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED054461D38B5A7005693B3;
+			remoteInfo = "web长按保存图片";
+		};
+		FED0546C1D38B5A8005693B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FED0543F1D38B5A7005693B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FED054461D38B5A7005693B3;
+			remoteInfo = "web长按保存图片";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FED054471D38B5A7005693B3 /* web长按保存图片.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "web长按保存图片.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED0544B1D38B5A7005693B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FED0544D1D38B5A7005693B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FED0544E1D38B5A7005693B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FED054501D38B5A7005693B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FED054511D38B5A7005693B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FED054541D38B5A7005693B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FED054561D38B5A7005693B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FED054591D38B5A7005693B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FED0545B1D38B5A7005693B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED054601D38B5A7005693B3 /* web长按保存图片Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "web长按保存图片Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED054641D38B5A7005693B3 /* web______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "web______Tests.m"; sourceTree = "<group>"; };
+		FED054661D38B5A7005693B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FED0546B1D38B5A8005693B3 /* web长按保存图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "web长按保存图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED0546F1D38B5A8005693B3 /* web______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "web______UITests.m"; sourceTree = "<group>"; };
+		FED054711D38B5A8005693B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED054441D38B5A7005693B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED0545D1D38B5A7005693B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED054681D38B5A8005693B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED0543E1D38B5A7005693B3 = {
+			isa = PBXGroup;
+			children = (
+				FED054491D38B5A7005693B3 /* web长按保存图片 */,
+				FED054631D38B5A7005693B3 /* web长按保存图片Tests */,
+				FED0546E1D38B5A8005693B3 /* web长按保存图片UITests */,
+				FED054481D38B5A7005693B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED054481D38B5A7005693B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED054471D38B5A7005693B3 /* web长按保存图片.app */,
+				FED054601D38B5A7005693B3 /* web长按保存图片Tests.xctest */,
+				FED0546B1D38B5A8005693B3 /* web长按保存图片UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED054491D38B5A7005693B3 /* web长按保存图片 */ = {
+			isa = PBXGroup;
+			children = (
+				FED0544D1D38B5A7005693B3 /* AppDelegate.h */,
+				FED0544E1D38B5A7005693B3 /* AppDelegate.m */,
+				FED054501D38B5A7005693B3 /* ViewController.h */,
+				FED054511D38B5A7005693B3 /* ViewController.m */,
+				FED054531D38B5A7005693B3 /* Main.storyboard */,
+				FED054561D38B5A7005693B3 /* Assets.xcassets */,
+				FED054581D38B5A7005693B3 /* LaunchScreen.storyboard */,
+				FED0545B1D38B5A7005693B3 /* Info.plist */,
+				FED0544A1D38B5A7005693B3 /* Supporting Files */,
+			);
+			path = "web长按保存图片";
+			sourceTree = "<group>";
+		};
+		FED0544A1D38B5A7005693B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED0544B1D38B5A7005693B3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FED054631D38B5A7005693B3 /* web长按保存图片Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FED054641D38B5A7005693B3 /* web______Tests.m */,
+				FED054661D38B5A7005693B3 /* Info.plist */,
+			);
+			path = "web长按保存图片Tests";
+			sourceTree = "<group>";
+		};
+		FED0546E1D38B5A8005693B3 /* web长按保存图片UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FED0546F1D38B5A8005693B3 /* web______UITests.m */,
+				FED054711D38B5A8005693B3 /* Info.plist */,
+			);
+			path = "web长按保存图片UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED054461D38B5A7005693B3 /* web长按保存图片 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED054741D38B5A8005693B3 /* Build configuration list for PBXNativeTarget "web长按保存图片" */;
+			buildPhases = (
+				FED054431D38B5A7005693B3 /* Sources */,
+				FED054441D38B5A7005693B3 /* Frameworks */,
+				FED054451D38B5A7005693B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "web长按保存图片";
+			productName = "web长按保存图片";
+			productReference = FED054471D38B5A7005693B3 /* web长按保存图片.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FED0545F1D38B5A7005693B3 /* web长按保存图片Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED054771D38B5A8005693B3 /* Build configuration list for PBXNativeTarget "web长按保存图片Tests" */;
+			buildPhases = (
+				FED0545C1D38B5A7005693B3 /* Sources */,
+				FED0545D1D38B5A7005693B3 /* Frameworks */,
+				FED0545E1D38B5A7005693B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED054621D38B5A7005693B3 /* PBXTargetDependency */,
+			);
+			name = "web长按保存图片Tests";
+			productName = "web长按保存图片Tests";
+			productReference = FED054601D38B5A7005693B3 /* web长按保存图片Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FED0546A1D38B5A8005693B3 /* web长按保存图片UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED0547A1D38B5A8005693B3 /* Build configuration list for PBXNativeTarget "web长按保存图片UITests" */;
+			buildPhases = (
+				FED054671D38B5A8005693B3 /* Sources */,
+				FED054681D38B5A8005693B3 /* Frameworks */,
+				FED054691D38B5A8005693B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FED0546D1D38B5A8005693B3 /* PBXTargetDependency */,
+			);
+			name = "web长按保存图片UITests";
+			productName = "web长按保存图片UITests";
+			productReference = FED0546B1D38B5A8005693B3 /* web长按保存图片UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED0543F1D38B5A7005693B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = daijuqing;
+				TargetAttributes = {
+					FED054461D38B5A7005693B3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FED0545F1D38B5A7005693B3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FED054461D38B5A7005693B3;
+					};
+					FED0546A1D38B5A8005693B3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FED054461D38B5A7005693B3;
+					};
+				};
+			};
+			buildConfigurationList = FED054421D38B5A7005693B3 /* Build configuration list for PBXProject "web长按保存图片" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FED0543E1D38B5A7005693B3;
+			productRefGroup = FED054481D38B5A7005693B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED054461D38B5A7005693B3 /* web长按保存图片 */,
+				FED0545F1D38B5A7005693B3 /* web长按保存图片Tests */,
+				FED0546A1D38B5A8005693B3 /* web长按保存图片UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED054451D38B5A7005693B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED0545A1D38B5A7005693B3 /* LaunchScreen.storyboard in Resources */,
+				FED054571D38B5A7005693B3 /* Assets.xcassets in Resources */,
+				FED054551D38B5A7005693B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED0545E1D38B5A7005693B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED054691D38B5A8005693B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED054431D38B5A7005693B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED054521D38B5A7005693B3 /* ViewController.m in Sources */,
+				FED0544F1D38B5A7005693B3 /* AppDelegate.m in Sources */,
+				FED0544C1D38B5A7005693B3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED0545C1D38B5A7005693B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED054651D38B5A7005693B3 /* web______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FED054671D38B5A8005693B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED054701D38B5A8005693B3 /* web______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FED054621D38B5A7005693B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED054461D38B5A7005693B3 /* web长按保存图片 */;
+			targetProxy = FED054611D38B5A7005693B3 /* PBXContainerItemProxy */;
+		};
+		FED0546D1D38B5A8005693B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FED054461D38B5A7005693B3 /* web长按保存图片 */;
+			targetProxy = FED0546C1D38B5A8005693B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FED054531D38B5A7005693B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED054541D38B5A7005693B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FED054581D38B5A7005693B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED054591D38B5A7005693B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED054721D38B5A8005693B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FED054731D38B5A8005693B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED054751D38B5A8005693B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "web长按保存图片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeyou.web------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FED054761D38B5A8005693B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "web长按保存图片/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeyou.web------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FED054781D38B5A8005693B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "web长按保存图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeyou.web------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web长按保存图片.app/web长按保存图片";
+			};
+			name = Debug;
+		};
+		FED054791D38B5A8005693B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "web长按保存图片Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeyou.web------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/web长按保存图片.app/web长按保存图片";
+			};
+			name = Release;
+		};
+		FED0547B1D38B5A8005693B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "web长按保存图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeyou.web------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "web长按保存图片";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FED0547C1D38B5A8005693B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "web长按保存图片UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comeyou.web------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "web长按保存图片";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED054421D38B5A7005693B3 /* Build configuration list for PBXProject "web长按保存图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED054721D38B5A8005693B3 /* Debug */,
+				FED054731D38B5A8005693B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED054741D38B5A8005693B3 /* Build configuration list for PBXNativeTarget "web长按保存图片" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED054751D38B5A8005693B3 /* Debug */,
+				FED054761D38B5A8005693B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FED054771D38B5A8005693B3 /* Build configuration list for PBXNativeTarget "web长按保存图片Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED054781D38B5A8005693B3 /* Debug */,
+				FED054791D38B5A8005693B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FED0547A1D38B5A8005693B3 /* Build configuration list for PBXNativeTarget "web长按保存图片UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED0547B1D38B5A8005693B3 /* Debug */,
+				FED0547C1D38B5A8005693B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED0543F1D38B5A7005693B3 /* Project object */;
+}
